@@ -1,0 +1,36 @@
+.chat {
+  margin: 1em 0;
+  display: grid;
+  gap: 4px;
+  grid-template-rows: max-content 1fr max-content;
+
+
+  .heading {
+    text-transform: uppercase;
+    color: #757575;
+    font-size: 5pt;
+    font-weight: 900;
+  }
+
+  .entries {
+    padding-left: 8px;
+    padding-right: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    overflow-y: auto;
+    max-height: 75vh;
+  }
+
+  .message-input {
+    margin: 4px;
+    display: flex;
+    align-items: end;
+    gap: 4px;
+
+    input {
+      width: 100%;
+    }
+  }
+
+}

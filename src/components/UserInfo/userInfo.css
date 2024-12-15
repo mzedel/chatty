@@ -1,0 +1,22 @@
+.user {
+  padding: 0 4px;
+  display: flex;
+  align-items: center;
+
+  img {
+    height: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .image-container {
+    overflow: hidden;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    justify-self: center;
+    margin-right: 4px;
+  }
+}

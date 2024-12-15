@@ -1,0 +1,12 @@
+.chat-app {
+    display: grid;
+    max-width: 80vw;
+    min-width: 60vw;
+    place-self: center;
+    grid-template-areas: chats active-chat;
+    grid-template-columns: 20vw 1fr;
+    border-color: #e3e3e3;
+    border-radius: 12px;
+    border-width: 1px;
+    border-style: solid;
+}

@@ -6,8 +6,8 @@ export const enableMockServiceWorker = async () => {
   if (import.meta.env.NODE_ENV === 'production') {
     return;
   }
-  if (import.meta.env.ENABLE_MSW === 'true') {
-    const worker = setupWorker(...handlers);
-    return worker.start();
-  }
+  // if (import.meta.env.ENABLE_MSW === 'true') {
+  const worker = setupWorker(...handlers);
+  return worker.start();
+  // }
 };

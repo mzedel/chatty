@@ -1,0 +1,22 @@
+.conversation-wrapper {
+  margin: 1em;
+  display: grid;
+  gap: 4px;
+  grid-template-rows: min-content 1fr max-content;
+
+  h3 {
+    text-transform: uppercase;
+    color: #757575;
+    font-weight: 900;
+  }
+
+  .conversations {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .conversation-starter {
+    display: grid;
+    grid-template-columns: 1fr 120px;
+  }
+}
